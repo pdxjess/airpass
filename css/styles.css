@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Tajawal:400,900&display=swap');
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 699px){
+  .overview {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .objectives {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .research {
+    width: 550px;
+    position: absolute;
+    top: 128px;
+    right: 70px;
+    padding-bottom: 20px;
+  }
+
+  .personas {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .userstories {
+    width: 650px;
+    position: absolute;
+    top: 128px;
+    right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .userflow {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  .wireframe {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .moodboard {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .styleguide {
+    width: 650px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .prototype {
+    width: 600px;
+    position: absolute;
+    top: 128px;
+    right: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px){
+  .overview {
+    width: 650px;
+    position: absolute;
+    top: 128px;
+    right: 70px;
+    padding-bottom: 20px;
+  }
+
+    .objectives {
+      width: 750px;
+      position: absolute;
+      top: 128px;
+      right: -50px;
+      padding-bottom: 20px;
+    }
+
+    .research {
+      width: 650px;
+      position: absolute;
+      top: 128px;
+      right: 20px;
+      padding-bottom: 20px;
+    }
+
+    .personas {
+      width: 650px;
+      position: absolute;
+      top: 128px;
+      right: 20px;
+      padding-bottom: 20px;
+    }
+
+    .userstories {
+      width: 750px;
+      position: absolute;
+      top: 128px;
+      right: -60px;
+      padding-bottom: 20px;
+    }
+
+    .userflow {
+      width: 700px;
+      position: absolute;
+      top: 128px;
+      right: -40px;
+      padding-bottom: 20px;
+      padding: 20px;
+    }
+
+    .wireframe {
+      width: 700px;
+      position: absolute;
+      top: 128px;
+      right: -10px;
+      padding-bottom: 20px;
+    }
+
+    .moodboard {
+      width: 670px;
+      position: absolute;
+      top: 128px;
+      right: 10px;
+      padding-bottom: 20px;
+    }
+
+    .styleguide {
+      width: 720px;
+      position: absolute;
+      top: 128px;
+      right: -20px;
+      padding-bottom: 20px;
+    }
+
+    .prototype {
+      width: 675px;
+      position: absolute;
+      top: 128px;
+      right: 5px;
+      padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1059px){
+  .overview {
+    width: 750px;
+    position: absolute;
+    top: 128px;
+    right: 70px;
+    padding-bottom: 20px;
+  }
+
+    .objectives {
+      width: 850px;
+      position: absolute;
+      top: 128px;
+      right: -50px;
+      padding-bottom: 20px;
+    }
+
+    .research {
+      width: 750px;
+      position: absolute;
+      top: 128px;
+      right: 20px;
+      padding-bottom: 20px;
+    }
+
+    .personas {
+      width: 750px;
+      position: absolute;
+      top: 128px;
+      right: 20px;
+      padding-bottom: 20px;
+    }
+
+    .userstories {
+      width: 850px;
+      position: absolute;
+      top: 128px;
+      right: -60px;
+      padding-bottom: 20px;
+    }
+
+    .userflow {
+      width: 800px;
+      position: absolute;
+      top: 128px;
+      right: -40px;
+      padding-bottom: 20px;
+      padding: 20px;
+    }
+
+    .wireframe {
+      width: 800px;
+      position: absolute;
+      top: 128px;
+      right: -10px;
+      padding-bottom: 20px;
+    }
+
+    .moodboard {
+      width: 770px;
+      position: absolute;
+      top: 128px;
+      right: 10px;
+      padding-bottom: 20px;
+    }
+
+    .styleguide {
+      width: 820px;
+      position: absolute;
+      top: 128px;
+      right: -20px;
+      padding-bottom: 20px;
+    }
+
+    .prototype {
+      width: 775px;
+      position: absolute;
+      top: 128px;
+      right: 90px;
+      padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1060px) and (max-width: 1200px){
+  .overview {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .objectives {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: -50px;
+    padding-bottom: 20px;
+  }
+
+  .research {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 60px;
+    padding-bottom: 20px;
+  }
+
+  .personas {
+    width: 850px;
+    position: absolute;
+    top: 128px;
+    right: 80px;
+    padding-bottom: 20px;
+  }
+
+  .userstories {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .userflow {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  .wireframe {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .moodboard {
+    width: 970px;
+    position: absolute;
+    top: 128px;
+    right: 40px;
+    padding-bottom: 20px;
+  }
+
+  .styleguide {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .prototype {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 100px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1549px){
+  .overview {
+    width: 1100px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+  .objectives {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: -50px;
+    padding-bottom: 20px;
+  }
+
+  .research {
+    width: 1100px;
+    position: absolute;
+    top: 128px;
+    right: 60px;
+    padding-bottom: 20px;
+  }
+
+  .personas {
+    width: 1000px;
+    position: absolute;
+    top: 128px;
+    right: 80px;
+    padding-bottom: 20px;
+  }
+
+  .userstories {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .userflow {
+    width: 1100px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  .wireframe {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .moodboard {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: 5px;
+    padding-bottom: 20px;
+  }
+
+  .styleguide {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: 10px;
+    padding-bottom: 20px;
+  }
+
+  .prototype {
+    width: 1100px;
+    position: absolute;
+    top: 128px;
+    right: 150px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 2000px){
+  .overview {
+    width: 1400x;
+    position: absolute;
+    top: 128px;
+    right: 70px;
+    padding-bottom: 20px;
+  }
+
+  .objectives {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: -50px;
+    padding-bottom: 20px;
+  }
+
+  .research {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 60px;
+    padding-bottom: 20px;
+  }
+
+  .personas {
+    width: 1200px;
+    position: absolute;
+    top: 128px;
+    right: 100px;
+    padding-bottom: 20px;
+  }
+
+  .userstories {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .userflow {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  .wireframe {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .moodboard {
+    width: 1300px;
+    position: absolute;
+    top: 128px;
+    right: 40px;
+    padding-bottom: 20px;
+  }
+
+  .styleguide {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .prototype {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 200px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 3000px){
+  .overview {
+    width: 1600x;
+    position: absolute;
+    top: 128px;
+    right: 200px;
+    padding-bottom: 20px;
+  }
+
+  .objectives {
+    width: 1500px;
+    position: absolute;
+    top: 128px;
+    right: 100px;
+    padding-bottom: 20px;
+  }
+
+  .research {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 275px;
+    padding-bottom: 20px;
+  }
+
+  .personas {
+    width: 1500px;
+    position: absolute;
+    top: 128px;
+    right: 200px;
+    padding-bottom: 20px;
+  }
+
+  .userstories {
+    width: 1600px;
+    position: absolute;
+    top: 128px;
+    right: 200px;
+    padding-bottom: 20px;
+  }
+
+  .userflow {
+    width: 1500px;
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+
+  .wireframe {
+    width: 1400px;
+    position: absolute;
+    top: 128px;
+    right: 300px;
+    padding-bottom: 20px;
+  }
+
+  .moodboard {
+    width: 1500px;
+    position: absolute;
+    top: 90px;
+    right: 300px;
+    padding-bottom: 20px;
+  }
+
+  .styleguide {
+    width: 1600px;
+    position: absolute;
+    top: 90px;
+    right: 250px;
+    padding-bottom: 20px;
+  }
+
+  .prototype {
+    width: 1600px;
+    position: absolute;
+    top: 128px;
+    right: 250px;
+    padding-bottom: 20px;
+  }
+}
+
+.header-top h1 {
+  color: black ;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.header-top h2 {
+  color: black;
+  font-size: 18px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar li:hover {
+  border-bottom: 3px solid black;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+
+    &__image {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.header-tag {
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 25px;
+  list-style: none;
+  letter-spacing: 2px;
+  font-family: 'Tajawal', sans-serif;
+
+  .list_name {
+    text-transform: uppercase;
+  }
+}
+
+.finalDesign {
+  margin-top: 60px;
+  text-align: left;
+  padding-left: 90px;
+}
+
+.moodboard {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.research {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.userflow {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.prototype {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.wireframe {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.overview {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.research {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.personas {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.styleguide {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.objectives {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.userstories {
+  position: absolute;
+  padding-bottom: 20px;
+}
